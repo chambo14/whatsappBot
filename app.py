@@ -55,6 +55,8 @@ def reception():
     except:
         pass
 
+
+
     return jsonify({"status": "ok"}), 200
 
 if __name__ == "__main__":
